@@ -17,7 +17,8 @@
     "d3fc",
     "chart",
     "cartesian",
-    "webgl"
+    "webgl",
+    "webassembly"
   ],
   "author": "alee@scottlogic.com",
   "devDependencies": {
