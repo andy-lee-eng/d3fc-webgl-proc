@@ -6,6 +6,10 @@
   "homepage": "https://github.com/DevAndyLee/d3fc-webgl-proc",
   "main": "build/d3fc-webgl-proc.js",
   "module": "index",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/DevAndyLee/d3fc-webgl-proc"
+  },
   "scripts": {
     "create-folder": "node ./scripts/create-folder.js wasm",
     "compile": "emcc src/cpp/shapes.cpp -s WASM=1 -o wasm/d3fc-webgl-proc.js -s MODULARIZE -s EXPORT_ES6=1 -s EXTRA_EXPORTED_RUNTIME_METHODS=\"['cwrap']\" -s SINGLE_FILE=1 -s ALLOW_MEMORY_GROWTH=1",
