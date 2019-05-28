@@ -1,6 +1,6 @@
 {
   "name": "d3fc-webgl-proc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A WebAssembly support library for d3fc-webgl",
   "license": "MIT",
   "homepage": "https://github.com/DevAndyLee/d3fc-webgl-proc",
