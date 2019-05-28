@@ -7,8 +7,8 @@
   "main": "build/d3fc-webgl-proc.js",
   "module": "index",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/DevAndyLee/d3fc-webgl-proc"
+    "type": "git",
+    "url": "https://github.com/DevAndyLee/d3fc-webgl-proc"
   },
   "scripts": {
     "create-folder": "node ./scripts/create-folder.js wasm",
