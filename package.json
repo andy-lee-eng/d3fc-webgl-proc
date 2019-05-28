@@ -8,7 +8,7 @@
   "module": "index",
   "scripts": {
     "create-folder": "node ./scripts/create-folder.js wasm",
-    "compile": "emcc src/cpp/shapes.cpp -s WASM=1 -o wasm/d3fc-webgl-proc.js -s MODULARIZE -s EXPORT_ES6=1 -s EXTRA_EXPORTED_RUNTIME_METHODS=\"['cwrap']\" -s SINGLE_FILE=1",
+    "compile": "emcc src/cpp/shapes.cpp -s WASM=1 -o wasm/d3fc-webgl-proc.js -s MODULARIZE -s EXPORT_ES6=1 -s EXTRA_EXPORTED_RUNTIME_METHODS=\"['cwrap']\" -s SINGLE_FILE=1 -s ALLOW_MEMORY_GROWTH=1",
     "build": "rollup -c",
     "uglify": "uglifyjs build/d3fc-webgl-proc.js --output build/d3fc-webgl-proc.min.js",
     "prepublishOnly": "npm run build && npm run uglify"
